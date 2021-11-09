@@ -1,0 +1,43 @@
+[
+{
+    "_id" : ObjectId("6185171247b155aff0db3663"),
+    "entity" : "acme",
+    "source" : "b2b",
+    "fee" : {
+        "type" : "percentage",
+        "value" : "5%"
+    },
+    "discount" : {
+        "type" : "percentage",
+        "value" : "0%"
+    },
+    "commission" : {
+        "type" : "percentage",
+        "value" : "0%"
+    },
+    "agent_commission" : {
+        "type" : "percentage",
+        "value" : "10%"
+    }
+},
+{
+    "_id" : ObjectId("6185175e47b155aff0db3675"),
+    "entity" : "warn",
+    "source" : "b2b",
+    "fee" : {
+        "type" : "percentage",
+        "value" : "0%"
+    },
+    "discount" : {
+        "type" : "percentage",
+        "value" : "5%"
+    },
+    "commission" : {
+        "type" : "percentage",
+        "value" : "10%"
+    },
+    "agent_commission" : {
+        "type" : "percentage",
+        "value" : "0%"
+    }
+}]

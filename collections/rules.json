@@ -1,0 +1,23 @@
+[
+{
+    "_id" : ObjectId("6185184947b155aff0db3690"),
+    "id" : "B2BRange1",
+    "title" : "B2B Range: 0-5000",
+    "when" : "DP.DeviceValue >= 0.0 && DP.DeviceValue <= 5000.0",
+    "then" : "Price.NetPrice = 18.75; Price.TaxValue = 2.25; Price.Calculate(); Price.NetPremium = (Price.NetPrice + Price.Fee.Value + Price.AgentCommission.Value) - Price.Discount.Value;"
+},
+{
+    "_id" : ObjectId("6185187847b155aff0db3693"),
+    "id" : "B2BRange2",
+    "title" : "B2B Range: 5000.1-10000",
+    "when" : "DP.DeviceValue >= 5000.1 && DP.DeviceValue <= 10000.0",
+    "then" : "Price.NetPrice = 40.75; Price.TaxValue = 4.0; Price.Calculate(); Price.NetPremium = (Price.NetPrice + Price.Fee.Value + Price.AgentCommission.Value) - Price.Discount.Value;"
+},
+{
+    "_id" : ObjectId("618518a947b155aff0db369a"),
+    "id" : "B2BRange3",
+    "title" : "B2B Range: 10000.1-15000",
+    "when" : "DP.DeviceValue >= 10000.1 && DP.DeviceValue <= 15000.0",
+    "then" : "Price.NetPrice = 70.9; Price.TaxValue = 8.25; Price.Calculate(); Price.NetPremium = (Price.NetPrice + Price.Fee.Value + Price.AgentCommission.Value);"
+}
+]
